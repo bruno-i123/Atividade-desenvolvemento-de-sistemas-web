@@ -11,7 +11,7 @@ h1{
     font-family: Arial, Sans-serif;
     font-weight: 100;
     margin-left: 85vh;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 img{
     border-radius: 15px;
@@ -30,7 +30,8 @@ img:hover {
     width: 80%;
     display: flex;
     margin: 0 auto;
-    transform: translate(1%, 10%)
+    margin-top: -50px;
+    transform: translate(0%, 10%)
     
 }
 .info{
@@ -41,10 +42,14 @@ img:hover {
     aspect-ratio: 1/1;
     width: 50px;
 }
+.info p{
+    margin-bottom: 10px;
+}
 .video{
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 .video iframe{
     width: 80%;
